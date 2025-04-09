@@ -1,0 +1,3 @@
+# E-commerce API
+
+This API allows management of data in an e-commerce setting. You can access API requests relating to customer management, product management, and orders management. For each of these categories, there are routes to create new datapoints, read datapoints, update datapoints, and delete datapoints. The data is stored in a SQL database using Flask-SQLAlchemy for integration. There is also added functionality with routes to add or remove products from an order, view a customer's order history, or view the total price of an order.
